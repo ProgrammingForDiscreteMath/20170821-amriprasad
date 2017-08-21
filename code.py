@@ -1,7 +1,7 @@
 # Create a list with the first ten triangular numbers
 # (see https://oeis.org/A000217)
 
-L = [ for i in range(10)]
+L = [i for i in range(10)]
 
 # Create a function to test if a number is prime
 def is_prime(n):
